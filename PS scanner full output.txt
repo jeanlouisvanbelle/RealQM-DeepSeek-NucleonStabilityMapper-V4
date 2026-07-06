@@ -1,0 +1,45 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\jeanl\Documents\Physics\RealQM_NuclearEngine-V4-1> python run_stability_scan_v4_1_parallel.py
+Loaded gamma from config: 70.000 MeV
+================================================================================
+RealQM V4.1 Full Stability Scan (Parallel - multiprocessing)
+================================================================================
+Gamma: 70.000 MeV
+A0: 12, Power: 1.5
+Scanning: Z = 1 to 20, N = Z to 3.0Z
+Parallel jobs: 16 cores
+Output file: stability_scan_v4_1_full.csv
+================================================================================
+Total isotopes to compute: 440
+================================================================================
+
+Starting parallel scan... (results will stream to disk in real-time)
+--------------------------------------------------------------------------------
+Processing & Saving Isotopes:   0%|                                                            | 0/440 [00:00<?, ?it/s]Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Loaded gamma from config: 70.000 MeV
+Processing & Saving Isotopes: 100%|████████████████████████████████████████████████| 440/440 [5:02:08<00:00, 41.20s/it]
+
+================================================================================
+Scan Complete in 18128.48 seconds!
+Results saved to: stability_scan_v4_1_full.csv
+================================================================================
+
+Press Enter to close...
